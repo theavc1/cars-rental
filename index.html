@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DriveEasy — Location de voitures</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV New -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">Drive<span>Easy</span></a>
+      <ul class="nav__links">
+        <li><a href="#features">Avantages</a></li>
+        <li><a href="#fleet">Flotte</a></li>
+        <li><a href="#pricing">Tarifs</a></li>
+        <li><a href="#contact" class="btn btn--sm">Réserver</a></li>
+      </ul>
+      <button class="nav__burger" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="badge">🚗 Disponible 7j/7</span>
+        <h1>La voiture qu'il vous faut,<br /><em>quand vous en avez besoin</em></h1>
+        <p>Location courte et longue durée. Des véhicules récents, bien entretenus, livrés à votre adresse.</p>
+        <div class="hero__cta">
+          <a href="#pricing" class="btn btn--primary">Voir les tarifs</a>
+          <a href="#fleet" class="btn btn--outline">Découvrir la flotte</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="car-card">
+          <div class="car-img">🚙</div>
+          <div class="car-info">
+            <span class="car-name">BMW Série 3</span>
+            <span class="car-price">À partir de <strong>45 000 FCFA</strong>/jour</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8f9fb"/></svg>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat"><strong>500+</strong><span>Clients satisfaits</span></div>
+      <div class="stat"><strong>30+</strong><span>Véhicules disponibles</span></div>
+      <div class="stat"><strong>5 ans</strong><span>D'expérience</span></div>
+      <div class="stat"><strong>24/7</strong><span>Support client</span></div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section__header">
+        <h2>Pourquoi choisir DriveEasy ?</h2>
+        <p>Une expérience de location pensée pour votre confort.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Réservation instantanée</h3>
+          <p>Réservez en moins de 2 minutes depuis votre téléphone, sans paperasse.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚚</div>
+          <h3>Livraison à domicile</h3>
+          <p>Votre véhicule livré à l'adresse de votre choix, à l'heure convenue.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Assurance incluse</h3>
+          <p>Tous nos véhicules sont couverts. Roulez l'esprit tranquille.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💳</div>
+          <h3>Paiement flexible</h3>
+          <p>Mobile Money, carte bancaire ou espèces — vous choisissez.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔧</div>
+          <h3>Entretien rigoureux</h3>
+          <p>Chaque voiture est inspectée et nettoyée avant chaque location.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📞</div>
+          <h3>Support 24h/24</h3>
+          <p>Une équipe disponible à tout moment pour vous accompagner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEET -->
+  <section class="fleet section" id="fleet">
+    <div class="container">
+      <div class="section__header">
+        <h2>Notre flotte</h2>
+        <p>Des véhicules pour chaque besoin et chaque budget.</p>
+      </div>
+      <div class="fleet__grid">
+        <div class="fleet-card">
+          <div class="fleet-emoji">🚗</div>
+          <div class="fleet-body">
+            <h3>Citadine</h3>
+            <p>Toyota Yaris, Renault Clio</p>
+            <ul>
+              <li>✓ Climatisation</li>
+              <li>✓ Bluetooth</li>
+              <li>✓ Faible consommation</li>
+            </ul>
+            <span class="price">Dès <strong>25 000 FCFA</strong>/jour</span>
+          </div>
+        </div>
+        <div class="fleet-card fleet-card--featured">
+          <div class="badge-featured">Populaire</div>
+          <div class="fleet-emoji">🚙</div>
+          <div class="fleet-body">
+            <h3>Berline</h3>
+            <p>BMW Série 3, Mercedes C</p>
+            <ul>
+              <li>✓ GPS intégré</li>
+              <li>✓ Cuir & confort</li>
+              <li>✓ Idéale affaires</li>
+            </ul>
+            <span class="price">Dès <strong>45 000 FCFA</strong>/jour</span>
+          </div>
+        </div>
+        <div class="fleet-card">
+          <div class="fleet-emoji">🚐</div>
+          <div class="fleet-body">
+            <h3>SUV / Familiale</h3>
+            <p>Toyota Prado, Mitsubishi</p>
+            <ul>
+              <li>✓ 7 places</li>
+              <li>✓ 4x4 disponible</li>
+              <li>✓ Grand coffre</li>
+            </ul>
+            <span class="price">Dès <strong>65 000 FCFA</strong>/jour</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section__header">
+        <h2>Nos formules</h2>
+        <p>Transparence totale — aucun frais caché.</p>
+      </div>
+      <div class="pricing__grid">
+        <div class="pricing-card">
+          <h3>Journée</h3>
+          <div class="pricing-price">25 000<span> FCFA</span></div>
+          <p class="pricing-desc">Location à la journée, idéale pour un déplacement ponctuel.</p>
+          <ul>
+            <li>✓ Assurance incluse</li>
+            <li>✓ 200 km offerts</li>
+            <li>✓ Livraison en option</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Réserver</a>
+        </div>
+        <div class="pricing-card pricing-card--featured">
+          <div class="badge-featured">Meilleure offre</div>
+          <h3>Semaine</h3>
+          <div class="pricing-price">140 000<span> FCFA</span></div>
+          <p class="pricing-desc">7 jours de liberté avec nos meilleures conditions.</p>
+          <ul>
+            <li>✓ Assurance incluse</li>
+            <li>✓ Kilométrage illimité</li>
+            <li>✓ Livraison offerte</li>
+            <li>✓ Support prioritaire</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Réserver</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Mensuel</h3>
+          <div class="pricing-price">450 000<span> FCFA</span></div>
+          <p class="pricing-desc">Pour une location longue durée au meilleur tarif.</p>
+          <ul>
+            <li>✓ Assurance incluse</li>
+            <li>✓ Kilométrage illimité</li>
+            <li>✓ Entretien compris</li>
+            <li>✓ Véhicule de remplacement</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Réserver</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Prêt à prendre la route ?</h2>
+      <p>Contactez-nous dès maintenant et recevez votre devis en moins de 10 minutes.</p>
+      <a href="#contact" class="btn btn--white">Demander un devis gratuit</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__text">
+        <h2>Réservez maintenant</h2>
+        <p>Remplissez le formulaire et notre équipe vous rappelle dans les plus brefs délais.</p>
+        <div class="contact__details">
+          <p>📞 <strong>+225 07 00 00 00 00</strong></p>
+          <p>📧 <strong>contact@driveeasy.com</strong></p>
+          <p>📍 <strong>Abidjan, Plateau — Dakar — Cotonou</strong></p>
+        </div>
+      </div>
+      <form class="contact__form" id="reservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Prénom & Nom</label>
+            <input type="text" placeholder="Jean Kouassi" required />
+          </div>
+          <div class="form-group">
+            <label>Téléphone</label>
+            <input type="tel" placeholder="+225 07 00 00 00 00" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Date de début</label>
+            <input type="date" required />
+          </div>
+          <div class="form-group">
+            <label>Date de fin</label>
+            <input type="date" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Type de véhicule</label>
+          <select>
+            <option>Citadine</option>
+            <option>Berline</option>
+            <option>SUV / Familiale</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message (optionnel)</label>
+          <textarea placeholder="Précisions sur votre demande..." rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Envoyer ma demande</button>
+        <div class="form-success" id="formSuccess">✅ Demande envoyée ! Nous vous contactons très vite.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">Drive<span>Easy</span></a>
+        <p>Location de voitures simple, rapide et fiable.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#features">Avantages</a></li>
+          <li><a href="#fleet">Flotte</a></li>
+          <li><a href="#pricing">Tarifs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Légal</h4>
+        <ul>
+          <li><a href="#">Conditions générales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 DriveEasy — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
